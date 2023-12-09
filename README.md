@@ -5,6 +5,7 @@
 **Functionalities:**
 - **Website Launch:** Open predefined websites using voice commands.
 - **Music Playback:** Play songs from a directory through voice prompts.
+- **current time:** Get to know time through voice prompts.
 - **AI-assisted Tasks:** Utilize AI-generated commands for various tasks, including requesting assistance in composing emails (e.g., "Using artificial intelligence, write an email to my boss for resignation"). Some task examples are available in the `openai/` folder.
 
 **Project Structure:**
