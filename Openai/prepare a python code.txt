@@ -1,0 +1,28 @@
+using artificial intelligence prepare a python code
+
+#import libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+#import dataset
+dataset = pd.read_csv('dataset.csv')
+
+# split into input and output
+X = dataset.iloc[:, :-1].values
+y = dataset.iloc[:, -1].values
+
+# split into train and test
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+# feature scaling
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+X_train = sc.fit_transform(X_train)
+X_test = sc.transform(X_test)
+
+# train the model
+from sklearn.neural_network import MLPClassifier
+mlp = MLPClassifier(hidden_layer_sizes=(10, 10, 10), max_iter=1000)
+mlp.fit(X
