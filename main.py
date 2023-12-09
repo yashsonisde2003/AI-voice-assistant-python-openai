@@ -73,7 +73,7 @@ def takecommand():
         except Exception as e:
             return ("Some error occured can you please say it again")
     
-text=" ai"
+text="ai"
 speaker.speak(text)
 
 while 1:
