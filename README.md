@@ -1,4 +1,4 @@
-# AI Voice Assistant with Python and OpenAI API
+# AI Voice Assistant with Python and OpenAI API(EchoMind)
 
 **Description:** This Python-based AI voice assistant integrates the OpenAI `text-davinci-003` model to perform diverse tasks through voice commands. It can effortlessly launch specified websites like YouTube, Google, Wikipedia, etc., using the command structure "launch (website name with pre-set URL)." Additionally, users can request song playback from a designated directory by using the command "play (song name)."
 
