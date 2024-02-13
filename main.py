@@ -11,7 +11,6 @@ from config import apikey
 speaker =win32com.client.Dispatch("SAPI.SpVoice")
 
 
-# reseearch on webdriver for loging into any social media accounts
 chatstr=""
 
 def chat(s):

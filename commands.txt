@@ -8,3 +8,4 @@ COMMANDS TO BE GIVEN
 7.reset chat(to make it forget everything)
 8.quit(to turn off the assistant)
 9.chatting(will be running by default)
+further its improving gradually
