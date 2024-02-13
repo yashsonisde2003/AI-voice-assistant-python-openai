@@ -6,20 +6,16 @@ import pygame
 import subprocess
 import datetime
 import os
-import random
 from config import apikey
  
 speaker =win32com.client.Dispatch("SAPI.SpVoice")
-
-
-# reseearch on webdriver for loging into any social media accounts
 chatstr=""
 
 def chat(s):
     global chatstr
     openai.api_key = apikey
 
-    chatstr+=f'User said:{s}\n Jarvis said:'
+    chatstr+=f'User said:{s}\n EchoMind said:'
     response = openai.Completion.create(
     model="text-davinci-003",
     prompt=chatstr,
@@ -36,7 +32,7 @@ def chat(s):
     except Exception as e:
         print("some error occured",e)
 
-
+# OpenAi integeration model:-Davinci-003
 def ai(prompt):
     openai.api_key = apikey
 
@@ -60,7 +56,7 @@ def ai(prompt):
     except Exception as e:
         print("some error occured",e)
     
-
+#understanding the speech through microphone
 def takecommand():
     r=sr.Recognizer()
     with sr.Microphone() as source:
@@ -75,7 +71,8 @@ def takecommand():
     
 text="ai"
 speaker.speak(text)
-
+ 
+# Task implementation in code
 while 1:
     print("please enter the text to speak")
     s=takecommand()
