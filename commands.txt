@@ -1,0 +1,10 @@
+COMMANDS TO BE GIVEN
+1.using artificial intelligence (any task including text generation,email writing speech generation and many more)
+2.open (website name)
+3.launch (application name)
+4.play (music name)
+5.what"s the time
+6.remember(anything you want from assistant to remember)
+7.reset chat(to make it forget everything)
+8.quit(to turn off the assistant)
+9.chatting(will be running by default)

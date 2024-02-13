@@ -9,6 +9,9 @@ import os
 from config import apikey
  
 speaker =win32com.client.Dispatch("SAPI.SpVoice")
+
+
+# reseearch on webdriver for loging into any social media accounts
 chatstr=""
 
 def chat(s):
@@ -71,8 +74,7 @@ def takecommand():
     
 text="ai"
 speaker.speak(text)
- 
-# Task implementation in code
+
 while 1:
     print("please enter the text to speak")
     s=takecommand()
